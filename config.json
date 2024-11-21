@@ -1,0 +1,41 @@
+{
+  "app_ver_header": "Application-Version",
+  "app_ver": "0.5.7",
+  "app_name_header": "Application-Name",
+  "app_name": "umo",
+  "user_agent": "umo/0.5.7",
+  "curl_header": [
+    "Application-Version: 0.5.7",
+    "Application-Name: umo",
+    "User-Agent: umo/0.5.7"
+  ],
+  "req_header": {
+    "User-Agent": "umo/0.5.7",
+    "Application-Version": "0.5.7",
+    "Application-Name": "umo"
+  },
+  "writing_stuff": false,
+  "morrowind_dir": ".",
+  "tes3cmd": "tes3cmd",
+  "socket": [
+    "127.0.0.1",
+    6666
+  ],
+  "socket_server": null,
+  "modding_openmw_host": "https://modding-openmw.com",
+  "nexus_api_key": null,
+  "basepath": "./OpenMWMods",
+  "cache_dir": "C:\\Users\\D042388\\AppData\\Local",
+  "verbose": false,
+  "no_gui": false,
+  "no_notifications": false,
+  "nexus_premium": false,
+  "download_only": false,
+  "modlist_file": false,
+  "modlist": null,
+  "use_7z": false,
+  "max_threads": 10,
+  "json_output": false,
+  "use_dev_mods": false,
+  "bin_7z": "7z"
+}
