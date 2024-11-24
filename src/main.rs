@@ -1,13 +1,15 @@
-use std::fs::File;
 use umo_rs::config::Config;
 
 fn main() {
-    let foo = Config::new();
-    //println!("config is : {:?}", foo);
+    test();
+}
 
-    let output_file = File::create("config.json")
-        .expect("Could not create output file");
+fn test() {
+    let mut foo = Config::new();
+    foo.verbose = true;
+    foo.use_7z = true;
+    foo.save("config.json");
 
-    serde_json::to_writer_pretty(output_file, &foo)
-        .expect("Error writing output file");
+    let bar = Config::load("config.json");
+    println!("Config: {:?}", bar);
 }
